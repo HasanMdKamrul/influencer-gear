@@ -167,3 +167,13 @@ body {
   align-items: center;
   gap: 10%;
 }
+
+footer {
+  text-align: center;
+  background-color: #0a0826;
+  color: #fff;
+}
+
+.footer-items {
+  padding: 2%;
+}
