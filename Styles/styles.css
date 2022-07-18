@@ -7,6 +7,10 @@ body {
   color: #3a3a3a;
 }
 
+.section {
+  padding: 5%;
+}
+
 /* ? Header Styles */
 .header-container {
   margin-right: 120px;
@@ -152,4 +156,14 @@ body {
 
 .bottom-text p {
   text-align: right;
+}
+
+/* ? Featured products */
+
+.featured-products {
+  display: flex;
+  padding: 5% 20%;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
 }
