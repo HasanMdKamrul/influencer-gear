@@ -4,6 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
+  color: #3a3a3a;
 }
 
 /* ? Header Styles */
@@ -40,6 +41,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 0 120px;
+  margin-bottom: 69px;
 }
 
 .journey-text {
@@ -90,3 +92,64 @@ body {
 }
 
 /* * Journey Section Ends here */
+
+/* ** Brands Section Starts */
+.brands {
+  margin: 0 165px;
+  border-top: 2px solid #aaaaaa;
+  border-bottom: 2px solid #aaaaaa;
+  margin-bottom: 100px;
+}
+
+.brands-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px;
+}
+
+.brands img {
+  margin-right: 60px;
+}
+
+/* ** Brands Section Ends */
+.popular-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.popular-collections {
+  margin: 0 197px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.collection {
+  width: 329px;
+  height: 476px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.collection .collection-image img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+}
+
+.collection-texts {
+  text-align: left;
+  padding-left: 14px;
+}
+
+.bottom-text {
+  margin-right: 296px;
+}
+
+.bottom-text p {
+  text-align: right;
+}
