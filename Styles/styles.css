@@ -1,0 +1,92 @@
+/* ? Common Styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+/* ? Header Styles */
+.header-container {
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.header-container .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title h1 {
+  color: #3a3a3a;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.nav-navigations a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 34px;
+}
+
+/* * Journey Starts */
+
+.journey-starts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 120px;
+}
+
+.journey-text {
+  width: 582px;
+  height: 270px;
+}
+
+.journey-illustration {
+  width: 440px;
+  height: 414px;
+}
+
+.journey-starts .journey-illustration img {
+  width: 440px;
+  height: 414px;
+  background-image: url(../images/Circle\ design.svg);
+}
+#circle {
+  position: relative;
+}
+
+#camera {
+  position: absolute;
+  top: 15%;
+  z-index: 1;
+}
+
+.journey-title {
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+
+.button {
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+  background-color: #e02c6d;
+  border: none;
+}
+
+.button a,
+.fa-arrow-right {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* * Journey Section Ends here */
