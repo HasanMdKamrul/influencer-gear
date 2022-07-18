@@ -16,16 +16,25 @@
   <body>
     <!-- ** Heaser Section Starts -->
     <header class="header-container">
-      <nav class="container">
+      <nav class="nav-container">
+        <div class="mobile-nav" class="nav-mobile">
+          <div class="mobile-header">
+            <i id="bars" class="fa-solid fa-bars"></i>
+            <h1>Influencer products</h1>
+            <i id="cart" class="fa-solid fa-cart-plus"></i>
+          </div>
+        </div>
+
         <div class="nav-title">
           <h1>Influencer products</h1>
         </div>
+        <i id="cart" class="fa-solid fa-cart-plus"></i>
         <div class="nav-navigations">
-          <a href="">Home</a>
-          <a href="">Products</a>
-          <a href="">Sign up</a>
-          <a href="">Log in</a>
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <a class="not-show" href="">Home</a>
+          <a class="not-show" href="">Products</a>
+          <a class="not-show" href="">Sign up</a>
+          <a class="not-show" href="">Log in</a>
+          <i class="fa-solid fa-magnifying-glass not-show"></i>
           <i class="fa-solid fa-cart-plus"></i>
         </div>
       </nav>
@@ -241,7 +250,10 @@
         </div>
 
         <div class="featured-product-text">
-          <h1>Featured Products at one place</h1>
+          <div class="featured-text-title">
+            <h1>Featured Products at one place</h1>
+          </div>
+
           <p>
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation

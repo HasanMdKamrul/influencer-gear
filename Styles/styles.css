@@ -18,10 +18,18 @@ body {
   margin-bottom: 50px;
 }
 
-.header-container .container {
+.mobile-nav {
+  display: none;
+}
+
+.header-container .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#cart {
+  display: none;
 }
 
 .nav-title h1 {
@@ -36,6 +44,10 @@ body {
   font-size: 16px;
   font-weight: 600;
   margin-right: 34px;
+}
+
+.cart {
+  display: flex;
 }
 
 /* * Journey Starts */
@@ -61,7 +73,6 @@ body {
 .journey-starts .journey-illustration img {
   width: 440px;
   height: 414px;
-  background-image: url(../images/Circle\ design.svg);
 }
 #circle {
   position: relative;
@@ -113,7 +124,7 @@ body {
 }
 
 .brands img {
-  margin-right: 60px;
+  margin: 0 auto;
 }
 
 /* ** Brands Section Ends */
@@ -176,4 +187,73 @@ footer {
 
 .footer-items {
   padding: 2%;
+}
+
+/* * Mobile Devices */
+
+@media only screen and (max-width: 767.98px) {
+  .nav-title {
+    text-align: center;
+  }
+  .not-show {
+    display: none;
+  }
+  .nav-title {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .mobile-header {
+    display: flex;
+    align-items: center;
+  }
+
+  #bars,
+  #cart,
+  h1 {
+    width: 50%;
+  }
+
+  .container .journey-starts {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .journey-text {
+    text-align: right;
+  }
+
+  #camera {
+    top: 20%;
+  }
+  #circle {
+    top: 2%;
+  }
+
+  .brands-logos {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .popular-collections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .popular-title h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .collection {
+    width: 100%;
+  }
+
+  .featured-products {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
